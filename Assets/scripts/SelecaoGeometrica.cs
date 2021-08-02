@@ -1,57 +1,58 @@
+using System.Numerics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler
-{
+public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
+    //GameObject Conteudo do menu
     public GameObject content;
+
+    //GameObject menu clicado 
     public GameObject ObjetoMenuClicado;
-    public GameObject painelImgR1;
-    public GameObject painelImgR2;
-    public GameObject painelImgR3;
-
     public Texture TexObjMenuClicado;
-    public Texture TexImgR1;
-    public Texture TexImgR2;
-    public Texture TexImgR3;
-    public List<Texture> texturesMenu = new List<Texture>();
+    
+    //GameObject Painel right Imagem R0
+    public GameObject painelImgR0;
+    public Texture ImgDesenhoTecnico;
 
+    //GameObject e Textura Initial a_menu
     public GameObject Initial_a_menu;
     public Texture TexObj_a_menuSLC;
 
-
-
+    //GameObject e Textura Initial painelR0
+    public GameObject painelImgR0Incial;
+    public Texture ImgDTInicial;
+    
+    //Lista de Texturas para selecao menu;
+    public List<Texture> texturesMenu = new List<Texture>();
+    
     // Start is called before the first frame update
-    void Start()
-    {
-
+    void Start(){
+        //Starta o objeto a_menu e suas respectivas figuras 
         Initial_a_menu.GetComponent<RawImage>().texture = TexObj_a_menuSLC;
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //Starta o objeto painelImgR0 e suas respectivas figuras 
+        painelImgR0Incial.GetComponent<RawImage>().texture = ImgDTInicial;
     }
-    public void OnPointerClick(PointerEventData data)
-    {
+    // Update is called once per frame
+    void Update(){}
+
+    public void OnPointerClick(PointerEventData data){
        mudaImgPainelViewRight();
     }
 
-    void mudaImgPainelViewRight()
-
-    {
-        painelImgR1.GetComponent<RawImage>().texture = TexImgR1;
-        painelImgR2.GetComponent<RawImage>().texture = TexImgR2;
-        painelImgR3.GetComponent<RawImage>().texture = TexImgR3;
-
-        //Todos os objetos 
+    //Funcao para mudar as imagens do painel e da selacao menu.
+    void mudaImgPainelViewRight() {
+       
+        //Muda a imagem ao clicar 
+        painelImgR0.GetComponent<RawImage>().texture = ImgDesenhoTecnico;
+       
+       //Muda todas imagens para o padrao nao selecionada; 
         for (int i = 0; i < content.transform.childCount; i++)
         {
-            GameObject child = content.transform.GetChild(i).gameObject;
-                        
+            GameObject child = content.transform.GetChild(i).gameObject;                     
             //Do something with child
             if (child.name == ObjetoMenuClicado.name) {
                 ObjetoMenuClicado.GetComponent<RawImage>().texture = TexObjMenuClicado;
