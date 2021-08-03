@@ -12,11 +12,7 @@ public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
     //GameObject menu clicado 
     public GameObject ObjetoMenuClicado;
     public Texture TexObjMenuClicado;
-    
-    //GameObject Painel right Imagem R0
-    public GameObject painelImgR0;
-    public Texture ImgDesenhoTecnico;
-
+        
     //GameObject e Textura Initial a_menu
     public GameObject Initial_a_menu;
     public Texture TexObj_a_menuSLC;
@@ -24,7 +20,20 @@ public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
     //GameObject e Textura Initial painelR0
     public GameObject painelImgR0Incial;
     public Texture ImgDTInicial;
-    
+
+
+    //GameObject Painel right Imagem R0
+    public GameObject painelImgR0;
+    public Texture ImgDesenhoTecnico;
+
+    public GameObject painelR1;
+    public GameObject painelR2;
+    public GameObject painelR3;
+
+    public Texture painelImgR1;
+    public Texture painelImgR2; 
+    public Texture painelImgR3;
+
     //Lista de Texturas para selecao menu;
     public List<Texture> texturesMenu = new List<Texture>();
     
@@ -46,10 +55,14 @@ public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
     //Funcao para mudar as imagens do painel e da selacao menu.
     void mudaImgPainelViewRight() {
        
-        //Muda a imagem ao clicar 
+        //Muda a imagem ao clicar do paineis right 
         painelImgR0.GetComponent<RawImage>().texture = ImgDesenhoTecnico;
-       
-       //Muda todas imagens para o padrao nao selecionada; 
+        painelR1.GetComponent<RawImage>().texture = painelImgR1;
+        painelR2.GetComponent<RawImage>().texture = painelImgR2;
+        painelR3.GetComponent<RawImage>().texture = painelImgR3;
+
+
+        //Muda todas imagens para o padrao nao selecionada; 
         for (int i = 0; i < content.transform.childCount; i++)
         {
             GameObject child = content.transform.GetChild(i).gameObject;                     
