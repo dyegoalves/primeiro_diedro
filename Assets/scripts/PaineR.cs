@@ -16,7 +16,7 @@ public class PaineR : MonoBehaviour
 
     public void chamaImagemSelecionada(GameObject painelimgR )
     {
-
+       
         // Atribui imagem ao GameObject selecionado   
         if (painelimgR.name == nameR  && clikR == false ){
             clikR = true;
@@ -26,13 +26,11 @@ public class PaineR : MonoBehaviour
             if(painelimgR.name == "painelR1")
             {
                 VistaFrente.GetComponent<SpriteRenderer>().color = color;
-
             }
 
             if (painelimgR.name == "painelR2")
             {
                 VistaLateral.GetComponent<SpriteRenderer>().color = color;
-
             }
 
             if (painelimgR.name == "painelR3")
@@ -46,11 +44,10 @@ public class PaineR : MonoBehaviour
             clikR = false;
             color.a = 0;
             painelimgR.GetComponent<RawImage>().color = color;
-                
+            
             if (painelimgR.name == "painelR1")
             {
-                VistaFrente.GetComponent<SpriteRenderer>().color = color;
-
+                VistaFrente.GetComponent<SpriteRenderer>().color = color;    
             }
 
             if (painelimgR.name == "painelR2")

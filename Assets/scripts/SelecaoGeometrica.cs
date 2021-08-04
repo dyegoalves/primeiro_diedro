@@ -21,7 +21,6 @@ public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
     public GameObject painelImgR0Incial;
     public Texture ImgDTInicial;
 
-
     //GameObject Painel right Imagem R0
     public GameObject painelImgR0;
     public Texture ImgDesenhoTecnico;
@@ -60,15 +59,27 @@ public class SelecaoGeometrica : MonoBehaviour , IPointerClickHandler{
 
     //Funcao para mudar as imagens do painel e da selacao menu.
     void mudaImgPainelViewRight() {
+
         //Muda a imagem ao clicar do paineis right 
         painelImgR0.GetComponent<RawImage>().texture    = ImgDesenhoTecnico;
         painelR1.GetComponent<RawImage>().texture       = painelImgR1;
         painelR2.GetComponent<RawImage>().texture       = painelImgR2;
         painelR3.GetComponent<RawImage>().texture       = painelImgR3;
+       
         //Muda as imagens das vistas Frente, Lateral e Superior 
         VistaFrente.GetComponent<SpriteRenderer>().sprite   = VistaFrente1;
         VistaLateral.GetComponent<SpriteRenderer>().sprite  = VistaLatera2;
         VistaSuperior.GetComponent<SpriteRenderer>().sprite = VistaSuperior3;
+
+        //Se vistaFrente for o sprite i_tecnico_0 flipa o Sprite para posicao correta 
+        if( VistaFrente.GetComponent<SpriteRenderer>().sprite.name == "i_tecnico_0"){
+            VistaFrente.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            VistaFrente.GetComponent<SpriteRenderer>().flipX = false;
+        }
+
         //Muda todas imagens para o padrao nao selecionada; 
         for (int i = 0; i < content.transform.childCount; i++)
         {
