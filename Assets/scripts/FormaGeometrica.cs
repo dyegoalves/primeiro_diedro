@@ -3,41 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class FormaGeometrica : MonoBehaviour
-{
-
+public class FormaGeometrica : MonoBehaviour{
     public GameObject buttonLR;
     public Texture imageLF; //Reference to a preset image
 
-
-    public float pox;
-    public float poy;
-    public float poz;
-
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    void Start(){}
+    
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void Update(){}
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        
+    void OnTriggerEnter2D(Collider2D collision){
         //Se colidir com obj f-menu que é um dos pontos finais da lista muda imagem
-        if (collision.gameObject.CompareTag("colisor"))
-        {
+        if (collision.gameObject.CompareTag("colisor")) {
             buttonLR.GetComponent<RawImage>().texture = imageLF;
-            
         }
-        else
-        {
+        else{
             Debug.Log("bb");
         }
     }

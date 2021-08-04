@@ -212,6 +212,9 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   clikR: 0
   nameR: painelR2
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
 --- !u!114 &141224978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,6 +271,89 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &165838263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165838265}
+  - component: {fileID: 165838264}
+  m_Layer: 0
+  m_Name: vistaFrenteT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &165838264
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165838263}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1443089919604206908, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.82, y: 1.41}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &165838265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165838263}
+  m_LocalRotation: {x: -0.7731801, y: 0.0031653051, z: 0.14303651, w: 0.61783737}
+  m_LocalPosition: {x: 0.6969005, y: 1.0754625, z: -1.2462684}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 1908521784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -73, y: -132, z: 144}
 --- !u!1 &212115254
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +660,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 4e292acb8ade3fe40b67e06e39352545, type: 3}
   painelImgR2: {fileID: 2800000, guid: 358ddfa93ee135540a4f1b82e363d286, type: 3}
   painelImgR3: {fileID: 2800000, guid: c9a93e765cbcfd24faeaaff7e4438d10, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 8002856721276028487, guid: 5605333d25052f348aeae6b6cad457ef, type: 3}
+  VistaLatera2: {fileID: 873604214486674603, guid: 5605333d25052f348aeae6b6cad457ef, type: 3}
+  VistaSuperior3: {fileID: -2549916040163111209, guid: 5605333d25052f348aeae6b6cad457ef, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -769,6 +861,9 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   clikR: 0
   nameR: painelR1
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
 --- !u!1 &344857443
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +970,89 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &357182441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 357182443}
+  - component: {fileID: 357182442}
+  m_Layer: 0
+  m_Name: vistaSuperiorT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &357182442
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357182441}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -8343217227064089523, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.82, y: 0.77}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &357182443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357182441}
+  m_LocalRotation: {x: 0.07607365, y: -0.89507216, z: 0.15011445, w: 0.41294578}
+  m_LocalPosition: {x: 0.25887108, y: 0, z: 0.119313225}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 1959645911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 19.363, y: -130.594, z: -0.741}
 --- !u!1 &415580757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1218,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422606956}
   m_CullTransparentMesh: 1
+--- !u!1 &499176421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499176423}
+  - component: {fileID: 499176422}
+  m_Layer: 0
+  m_Name: vistaLateralT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &499176422
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499176421}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1629920531770755369, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.82, y: 1.41}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &499176423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499176421}
+  m_LocalRotation: {x: -0.00038518006, y: 0.7095291, z: -0.704668, w: 0.0034011002}
+  m_LocalPosition: {x: -1.75, y: 1.66, z: -2.12}
+  m_LocalScale: {x: 4, y: 5, z: 4}
+  m_Children: []
+  m_Father: {fileID: 563011563}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.502, y: 141.963, z: -37.792}
 --- !u!1 &563011559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1314,7 @@ GameObject:
   - component: {fileID: 563011561}
   - component: {fileID: 563011560}
   m_Layer: 0
-  m_Name: ParedeDireita
+  m_Name: PLateral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1133,9 +1394,10 @@ Transform:
   m_LocalRotation: {x: 0.24508761, y: -0.66826916, z: 0.66070765, w: 0.23835649}
   m_LocalPosition: {x: 1.891, y: 0.72, z: -0.573}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_Children: []
+  m_Children:
+  - {fileID: 499176423}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 89.18, y: -201.685, z: -61.665}
 --- !u!1 &632561138
 GameObject:
@@ -1386,6 +1648,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 16ae647d7c77a5b46ae1d58f16feca57, type: 3}
   painelImgR2: {fileID: 2800000, guid: a80bcba934e568c4fab043827d238158, type: 3}
   painelImgR3: {fileID: 2800000, guid: 6a8f6cf12b871204f8176cec955e8c6a, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 7672865807144261404, guid: 86eb6985f966a9f4fb3bc2dcff6a6a49, type: 3}
+  VistaLatera2: {fileID: -6671039156131652651, guid: 86eb6985f966a9f4fb3bc2dcff6a6a49, type: 3}
+  VistaSuperior3: {fileID: 168490689009937958, guid: 86eb6985f966a9f4fb3bc2dcff6a6a49, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -1526,6 +1794,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 1693c36c0b1d1ee4aa7e5f6ed578946d, type: 3}
   painelImgR2: {fileID: 2800000, guid: 38a65d8d99a3394469654b425634851a, type: 3}
   painelImgR3: {fileID: 2800000, guid: 4b9e4c6402b364647957a8cd317d54be, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -7939910905937792658, guid: 13e5060689c9d5c4484f467b974846f7, type: 3}
+  VistaLatera2: {fileID: 7385063796900773953, guid: 13e5060689c9d5c4484f467b974846f7, type: 3}
+  VistaSuperior3: {fileID: -8503520810203183795, guid: 13e5060689c9d5c4484f467b974846f7, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -1733,6 +2007,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 8a92f917656a0e34783bc405b30839f0, type: 3}
   painelImgR2: {fileID: 2800000, guid: f93869fd8faf0fc49b02a97242aa2a1b, type: 3}
   painelImgR3: {fileID: 2800000, guid: 5937b5e6cee54864e9f37183fe7cd485, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 690468632198822846, guid: 4f5a9fc77fd7c174c913b1a6c1089705, type: 3}
+  VistaLatera2: {fileID: 8570604564253865126, guid: 4f5a9fc77fd7c174c913b1a6c1089705, type: 3}
+  VistaSuperior3: {fileID: -5746334024071113990, guid: 4f5a9fc77fd7c174c913b1a6c1089705, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -1847,6 +2127,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 3a097c5d81bd9bb4f92bce637cfdd5a7, type: 3}
   painelImgR2: {fileID: 2800000, guid: fd686faac5872054fa20b8c8a083cbb4, type: 3}
   painelImgR3: {fileID: 2800000, guid: cf24b510369e0d347a41d84bbb4651a9, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 1443089919604206908, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
+  VistaLatera2: {fileID: 1629920531770755369, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
+  VistaSuperior3: {fileID: -8343217227064089523, guid: 5a9ff4599a960b94cb9010b911c42782, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -2113,6 +2399,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 0a8c1e976b4af4b4d9abc6009074175f, type: 3}
   painelImgR2: {fileID: 2800000, guid: 1afa8748835949143844e87035c1aa14, type: 3}
   painelImgR3: {fileID: 2800000, guid: a7923cedea6c0c347ab589cfaf550180, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -1234382023513752250, guid: b810acfd71523e5418825283efe23dd8, type: 3}
+  VistaLatera2: {fileID: 7825688611348933006, guid: b810acfd71523e5418825283efe23dd8, type: 3}
+  VistaSuperior3: {fileID: -4134681634976865154, guid: b810acfd71523e5418825283efe23dd8, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -2748,6 +3040,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: eb2a42d401e90834a9e5b4146fb0d285, type: 3}
   painelImgR2: {fileID: 2800000, guid: 67e70fd597b45b24d938dc22a36d83fa, type: 3}
   painelImgR3: {fileID: 2800000, guid: a97b2b55b6a435a478526f0048e2b287, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -7904943365744818399, guid: 5bbaba76e05417c45a26852f2640ab83, type: 3}
+  VistaLatera2: {fileID: -5655315875965614869, guid: 5bbaba76e05417c45a26852f2640ab83, type: 3}
+  VistaSuperior3: {fileID: 8536299941133198185, guid: 5bbaba76e05417c45a26852f2640ab83, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -2907,6 +3205,9 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   clikR: 0
   nameR: painelR3
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
 --- !u!1 &1181128583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,6 +3704,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 95cd034a3305ca04e85aa1d72a10eae0, type: 3}
   painelImgR2: {fileID: 2800000, guid: c113acfe9ba449446b297acab654aae8, type: 3}
   painelImgR3: {fileID: 2800000, guid: 3274ad2d916ed2440ab464b86060ffd8, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 1259053666907758060, guid: cfd331869a6552a4c8340c693f8434c7, type: 3}
+  VistaLatera2: {fileID: 496763435179475597, guid: cfd331869a6552a4c8340c693f8434c7, type: 3}
+  VistaSuperior3: {fileID: 3320807460414540776, guid: cfd331869a6552a4c8340c693f8434c7, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -3562,6 +3869,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: a002032eb673e55498a8ca42d7a29691, type: 3}
   painelImgR2: {fileID: 2800000, guid: a6936d0241fe5f84fb2bd4907d69e818, type: 3}
   painelImgR3: {fileID: 2800000, guid: 7f7978fc02079aa4c852aacbd7674f45, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -8329544487029550908, guid: abe326f9bc08d0541bea79e3978cb345, type: 3}
+  VistaLatera2: {fileID: 3290927842580621819, guid: abe326f9bc08d0541bea79e3978cb345, type: 3}
+  VistaSuperior3: {fileID: -8165372876458284530, guid: abe326f9bc08d0541bea79e3978cb345, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -4080,6 +4393,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 35507dffdeb4cab45a6cdb84673d5f96, type: 3}
   painelImgR2: {fileID: 2800000, guid: 1b45926287bade34c977f2da3b857178, type: 3}
   painelImgR3: {fileID: 2800000, guid: d376780ebc3a446468d97588fb703419, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -4947734424198860935, guid: c62645e0c38641a489689d3a6033404a, type: 3}
+  VistaLatera2: {fileID: 5556708105461474967, guid: c62645e0c38641a489689d3a6033404a, type: 3}
+  VistaSuperior3: {fileID: -7859183035286641903, guid: c62645e0c38641a489689d3a6033404a, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -4107,7 +4426,7 @@ GameObject:
   - component: {fileID: 1908521782}
   - component: {fileID: 1908521781}
   m_Layer: 0
-  m_Name: ParedeEsquerda
+  m_Name: PFrente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4187,9 +4506,10 @@ Transform:
   m_LocalRotation: {x: 0.28715983, y: 0.6365552, z: -0.65282387, w: 0.29352647}
   m_LocalPosition: {x: 0.506, y: 0.985, z: -0.978}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_Children: []
+  m_Children:
+  - {fileID: 165838265}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 88.585, y: -2.872, z: -134.382}
 --- !u!1 &1959645907
 GameObject:
@@ -4204,7 +4524,7 @@ GameObject:
   - component: {fileID: 1959645909}
   - component: {fileID: 1959645908}
   m_Layer: 0
-  m_Name: Piso
+  m_Name: PSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4284,9 +4604,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9063079, z: 0, w: 0.42261827}
   m_LocalPosition: {x: 1.245, y: 0.01, z: -1.585}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_Children: []
+  m_Children:
+  - {fileID: 357182443}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 130, z: 0}
 --- !u!1 &2023886556
 GameObject:
@@ -4388,6 +4709,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 869648967059e744b9a7ea21669b06cf, type: 3}
   painelImgR2: {fileID: 2800000, guid: 14d9b3925fc41e94a877db4d1b5067f3, type: 3}
   painelImgR3: {fileID: 2800000, guid: 0465de0fa00771840b6be1da639d5e00, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -5552714154398548714, guid: a6ecc40f32bf89247a059db15ef89f59, type: 3}
+  VistaLatera2: {fileID: 3740033856647273230, guid: a6ecc40f32bf89247a059db15ef89f59, type: 3}
+  VistaSuperior3: {fileID: -4004537716698335529, guid: a6ecc40f32bf89247a059db15ef89f59, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -4636,6 +4963,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: 0335be7fdf6738c478b5eca706d98958, type: 3}
   painelImgR2: {fileID: 2800000, guid: 6a8d71ab0f0a6da47b548133af071fe3, type: 3}
   painelImgR3: {fileID: 2800000, guid: 178c188a0cbf0b54196b201dad294656, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: 9102720678334414696, guid: fdf64f8d067c3e740873031a8ca13404, type: 3}
+  VistaLatera2: {fileID: -6537413388967794769, guid: fdf64f8d067c3e740873031a8ca13404, type: 3}
+  VistaSuperior3: {fileID: 1829335116650740104, guid: fdf64f8d067c3e740873031a8ca13404, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
@@ -4750,6 +5083,12 @@ MonoBehaviour:
   painelImgR1: {fileID: 2800000, guid: cf7ecf449680bb24281d6ac5c95d40ce, type: 3}
   painelImgR2: {fileID: 2800000, guid: 89a4a58dcbfc4f144812c92ac2965514, type: 3}
   painelImgR3: {fileID: 2800000, guid: 1ac4838db5e77be46ba605d1c95638ea, type: 3}
+  VistaFrente: {fileID: 165838263}
+  VistaLateral: {fileID: 499176421}
+  VistaSuperior: {fileID: 357182441}
+  VistaFrente1: {fileID: -7501053546962752102, guid: e583fa4d6690f874b986f065c0870efd, type: 3}
+  VistaLatera2: {fileID: 4817538066877962558, guid: e583fa4d6690f874b986f065c0870efd, type: 3}
+  VistaSuperior3: {fileID: -1505124311985267964, guid: e583fa4d6690f874b986f065c0870efd, type: 3}
   texturesMenu:
   - {fileID: 2800000, guid: 8ed496462f3498f45aa5542c4642dc04, type: 3}
   - {fileID: 2800000, guid: e3716fedab3ccd940b69998e179e1fcd, type: 3}
