@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,9 +15,6 @@ public class FormaGeometrica : MonoBehaviour{
         //Se colidir com obj f-menu que é um dos pontos finais da lista muda imagem
         if (collision.gameObject.CompareTag("colisor")) {
             buttonLR.GetComponent<RawImage>().texture = imageLF;
-        }
-        else{
-            Debug.Log("bb");
         }
     }
 }
