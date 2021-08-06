@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: e583fa4d6690f874b986f065c0870efd
+guid: d9005ae53f2df6047ae00f83d4789b59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7501053546962752102
-    second: h_tecnico_0
+      213: -6911505684586049752
+    second: h_tecnico11_0
   - first:
-      213: 4817538066877962558
-    second: h_tecnico_1
+      213: 4038696126981970758
+    second: h_tecnico11_1
   - first:
-      213: -1505124311985267964
-    second: h_tecnico_2
+      213: -6684322333595792146
+    second: h_tecnico11_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: h_tecnico_0
+      name: h_tecnico11_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 184
-        width: 124
-        height: 123
+        x: 30
+        y: 188
+        width: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9de9149a87e6e790800000000000000
-      internalID: -7501053546962752102
+      spriteID: 82fc727d2366510a0800000000000000
+      internalID: -6911505684586049752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: h_tecnico_1
+      name: h_tecnico11_1
       rect:
         serializedVersion: 2
-        x: 185
-        y: 184
-        width: 125
-        height: 123
+        x: 190
+        y: 188
+        width: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39de20f8555bd240800000000000000
-      internalID: 4817538066877962558
+      spriteID: 64b9184cab45c0830800000000000000
+      internalID: 4038696126981970758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: h_tecnico_2
+      name: h_tecnico11_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 35
-        width: 124
-        height: 123
+        x: 30
+        y: 37
+        width: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b5059a969bc1be0800000000000000
-      internalID: -1505124311985267964
+      spriteID: eec00dda0448c33a0800000000000000
+      internalID: -6684322333595792146
       vertices: []
       indices: 
       edges: []
@@ -177,7 +177,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c4f110597ea17344a904645b69ba4951
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

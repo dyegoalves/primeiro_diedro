@@ -56,6 +56,7 @@ public class SelecaoGeometrica : MonoBehaviour, IPointerClickHandler
     // Update is called once per frame
     void Update() { }
 
+
     //Ao clickar sobre o menu de selecao, chama a funcao de mudaImgPainelViewRight;
     public void OnPointerClick(PointerEventData data)
     {
@@ -112,6 +113,5 @@ public class SelecaoGeometrica : MonoBehaviour, IPointerClickHandler
                 child.GetComponent<RawImage>().texture = texturesMenu[i];
             }
         }
-
     }
 }

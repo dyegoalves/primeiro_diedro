@@ -6,6 +6,8 @@ TagManager:
   tags:
   - colisor
   - LT3D
+  - colisorR
+  - colisorL
   layers:
   - Default
   - TransparentFX
