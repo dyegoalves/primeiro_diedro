@@ -1190,6 +1190,7 @@ GameObject:
   - component: {fileID: 415580760}
   - component: {fileID: 415580759}
   - component: {fileID: 415580761}
+  - component: {fileID: 415580762}
   m_Layer: 5
   m_Name: view
   m_TagString: Untagged
@@ -1268,6 +1269,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!65 &415580762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415580757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 700, y: 80, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &422606956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,10 +3281,10 @@ GameObject:
   - component: {fileID: 1057425745}
   - component: {fileID: 1057425747}
   - component: {fileID: 1057425746}
-  - component: {fileID: 1057425748}
   - component: {fileID: 1057425749}
-  - component: {fileID: 1057425750}
   - component: {fileID: 1057425751}
+  - component: {fileID: 1057425748}
+  - component: {fileID: 1057425750}
   m_Layer: 5
   m_Name: d_menu
   m_TagString: Untagged
@@ -3431,10 +3445,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb778212b1d045443994922914973e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonLR: {fileID: 632561138}
-  imageLR: {fileID: 2800000, guid: d8628f6d853072c43bde3d65f1790332, type: 3}
-  buttonSLR: {fileID: 1007418728}
-  imageSLR: {fileID: 2800000, guid: 177bf1c570f413143bdb55223686929b, type: 3}
+  buttonL: {fileID: 632561138}
+  buttonR: {fileID: 1007418728}
+  imageLon: {fileID: 2800000, guid: 8a4a74a698a96a64eabc8a4483b19837, type: 3}
+  imageRon: {fileID: 2800000, guid: 177bf1c570f413143bdb55223686929b, type: 3}
+  imageLoff: {fileID: 2800000, guid: d8628f6d853072c43bde3d65f1790332, type: 3}
+  imageRoff: {fileID: 2800000, guid: a8a5973bef7e67a449150abc3edbf0c4, type: 3}
 --- !u!1 &1059337597
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,10 +4831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb778212b1d045443994922914973e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonLR: {fileID: 1007418728}
-  imageLR: {fileID: 2800000, guid: a8a5973bef7e67a449150abc3edbf0c4, type: 3}
-  buttonSLR: {fileID: 632561138}
-  imageSLR: {fileID: 2800000, guid: 8a4a74a698a96a64eabc8a4483b19837, type: 3}
+  buttonL: {fileID: 632561138}
+  buttonR: {fileID: 1007418728}
+  imageLon: {fileID: 2800000, guid: 8a4a74a698a96a64eabc8a4483b19837, type: 3}
+  imageRon: {fileID: 2800000, guid: 177bf1c570f413143bdb55223686929b, type: 3}
+  imageLoff: {fileID: 2800000, guid: d8628f6d853072c43bde3d65f1790332, type: 3}
+  imageRoff: {fileID: 2800000, guid: a8a5973bef7e67a449150abc3edbf0c4, type: 3}
 --- !u!1 &1908521780
 GameObject:
   m_ObjectHideFlags: 0

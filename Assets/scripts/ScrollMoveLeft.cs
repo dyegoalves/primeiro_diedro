@@ -13,7 +13,7 @@ public class ScrollMoveLeft : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData data)
     {
-        rectTransform.localPosition -= Vector3.left + new Vector3(20, 0, 0);
+        rectTransform.localPosition -= Vector3.left + new Vector3(40, 0, 0);
         buttonRL.GetComponent<RawImage>().texture = imageLF;
     }
 }
